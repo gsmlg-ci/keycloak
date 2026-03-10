@@ -40,8 +40,7 @@ ADD --chown=keycloak:keycloak --chmod=644 https://repo1.maven.org/maven2/com/ora
 ADD --chown=keycloak:keycloak --chmod=644 https://dlm.mariadb.com/3934032/Connectors/java/connector-java-3.5.0/mariadb-java-client-3.5.0.jar /opt/keycloak/providers/mariadb.jar
 
 LABEL maintainer="Jonathan Gao <gsmlg.com@gmail.com>"
-LABEL org.opencontainers.image.source="https://github.com/gsmlg-dev/Foundation"
-LABEL org.opencontainers.image.source.path="docker/keycloak"
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/keycloak"
 LABEL org.opencontainers.image.title="Keycloak"
 LABEL org.opencontainers.image.description="Keycloak is an open source identity and access management solution."
 LABEL org.opencontainers.image.documentation="https://www.keycloak.org/documentation"
